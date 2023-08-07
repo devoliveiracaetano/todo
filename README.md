@@ -1,5 +1,31 @@
-# Apresentação
+# Projeto
 Esse app é do livro Pro Angular - Aplicação exemplo 
+
+--> Criar a classe principal "TodoItem" na raiz da aplicação
+  --> Criar um construtor passando uma variavel string e uma boolean(default:false) - ambas Public
+
+--> Criar uma classe chamada "todoList" que irá representar uma lista de items pendentes
+  --> Essa classe deverá utilizar a classe "TodoItem" (import) 
+  --> Criar um constutor passando os seguintes parâmetros:
+      . Usuário (publico do tipo String)
+      . Um array da classe de item (privado do tipo array com valor default vazio)
+  --> Criar um método para retornar os itens do array criado do tipo somente leitura
+  --> Criar um método para adicionar um item no array criado passando uma string
+  --> Alterar o conteúdo do HTML mostrando o usuario<h3> e dentro a quantidade de itens <h6> 
+  --> No app component fazer:
+      . Criar um atributo que contenha uma lista usuario (Bob) privada com 4 itens(array):
+        1. "Correr as 17 horas" - true
+        2. "Pegar Flores na Floricultura" 
+        3. "Comprar pão na Padaria" - true
+      . Método para Capturar usuario da lista criada anteriormente
+      . Crir um método para retornar a quantidade de itens da lista criada com status completo (true) - filtrar 
+
+
+  
+
+
+
+
 
 # Todo
 
