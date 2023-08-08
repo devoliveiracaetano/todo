@@ -25,4 +25,9 @@ export class AppComponent {
     return this.list.item.filter(item => !item.complete).length;
   }
 
+  get items(): readonly TodoItem[] {
+    return this.list.item;
+  }
+
+
 }
